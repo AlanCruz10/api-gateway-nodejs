@@ -13,7 +13,7 @@ dotenv.config()
 
 app.use(cors())
 app.use(helmet())
-app.use(morgan('combined'))
+app.use(morgan('dev'))
 app.use(express.json());
 app.disable("x-powered-by")
 
